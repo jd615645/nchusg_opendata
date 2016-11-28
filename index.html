@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>會議記錄</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+    <link rel="stylesheet" href="./css/main.js">
+  </head>
+  <body>
+    <div class="ui container" >
+      <div class="ui secondary pointing menu">
+        <a class="item active">2016</a>
+        <a class="item">2015</a>
+        <a class="item">2014</a>
+      </div>
+      <h1>行政常會會議記錄</h1>
+      <table class="ui striped table">
+        <thead>
+          <tr style="width:100%">
+            <th>文件名稱</th>
+            <th>線上瀏覽</th>
+            <th class="right aligned">載點</th>
+          </tr>
+        </thead>
+        <tbody id="metting_record"></tbody>
+      </table>
+        <h1>學生代表大會</h1>
+        <table class="ui striped table">
+          <thead>
+            <tr style="width:100%">
+              <th>文件名稱</th>
+              <th>線上瀏覽</th>
+              <th class="right aligned">載點</th>
+            </tr>
+          </thead>
+          <tbody id="conference"></tbody>
+            <div class="ui loader"></div>
+        </table>
+        <h1>仲裁評議委員會</h1>
+        <table class="ui striped table">
+          <thead>
+            <tr style="width:100%">
+              <th>文件名稱</th>
+              <th>線上瀏覽</th>
+              <th class="right aligned">載點</th>
+            </tr>
+          </thead>
+          <tbody id="committee"></tbody>
+          <div class="ui loader"></div>
+        </table>
+      </div>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
+      <script src="./js/main.js"></script>
+	</body>
+</html>
